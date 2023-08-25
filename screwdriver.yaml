@@ -1,25 +1,25 @@
 jobs:
-  1000MB_TESTA:
+  1000MB_CACHEA:
     image: cd.docker-registry.corp.yahoo.co.jp:4443/screwdriver-cd/sonic-sd:latest
     requires: []
     steps:
     - echo: echo foo
-  1001MB_TESTB:
+  1001MB_CACHEB:
     image: cd.docker-registry.corp.yahoo.co.jp:4443/screwdriver-cd/sonic-sd:latest
     requires: []
     steps:
     - echo: echo foo
-  1002MB_TESTC:
+  1002MB_CACHEC:
     image: cd.docker-registry.corp.yahoo.co.jp:4443/screwdriver-cd/sonic-sd:latest
     requires: []
     steps:
     - echo: echo foo
-  1003MB_TESTD:
+  1003MB_CACHED:
     image: cd.docker-registry.corp.yahoo.co.jp:4443/screwdriver-cd/sonic-sd:latest
     requires: []
     steps:
     - echo: echo foo
-  1004MB_TESTE:
+  1004MB_CACHEE:
     image: cd.docker-registry.corp.yahoo.co.jp:4443/screwdriver-cd/sonic-sd:latest
     requires: []
     steps:
